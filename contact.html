@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<style>
+.content {
+    max-width: 1024px;
+    margin: auto;
+}
+.active {
+    background-color: #e36e9b;
+}
+.mainbackground {
+    background-color: #e36e9b;
+}
+body {
+    background: #ffdfa2
+}
+div {
+    background-color: #ffdfa2;
+}
+.footer {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fa9b01;
+    max-width: 984px;
+    margin: auto;
+}
+</style>
+<head>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<title>Mac's Comix</title>
+</head>
+<body>
+<div class="content">
+  <header> <img src="images/banner.png" width="1024" height="201" alt="banner"/> </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="comics.html">Comics</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+    <h4>Contact Us </h4>
+    <h5>Please contact us if you would like to enquire about our comics.<br>
+      <br>
+      <a href="mailto:info@macscomix.co.nz">info@macscomix.co.nz</a><br>
+      +64 937 88414<br>
+      582 Karangahape Road<br>
+      Newton<br>
+      Auckland<br>
+    </h5>
+    <div class="container">
+      <h3>
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit" onclick="window.location.href ='mailto:info@macscomix.co.nz';"> 
+        </form>
+      </h3>
+    </div>
+  </main>
+</div>
+<footer div class="footer"> &copy Mac's Comics Ltd 2020 Ltd. </footer>
+</body>
+</html>

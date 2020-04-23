@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: white;
+}
+p {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 30px;
+  font-align: left;
+}
+h1 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 40px;
+  text-align: left;
+}
+h2 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  text-align: left;
+}
+h4 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+}
+h5 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+}
+h6 {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #21b509;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #e36e9b;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 25px;
+}
+.columnabout {
+  float: left;
+  width: 475px;
+  padding: 18px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #21b509;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #e36e9b;
+}
+input[type=order] {
+  background-color: #21b509;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=order]:hover {
+  background-color: #e36e9b;
+}
+.container {
+  border-radius: 5px;
+  background-color: #ffdfa2;
+  padding: 20px;
+}
